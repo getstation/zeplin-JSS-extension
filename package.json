@@ -1,7 +1,7 @@
 {
-  "name": "react-native",
+  "name": "JSS",
   "version": "1.2.0",
-  "description": "Generates React Native JavaScript snippets from colors, text styles and layers.",
+  "description": "Generates JSS snippets from colors, text styles and layers.",
   "scripts": {
     "start": "zem start",
     "build": "zem build",
@@ -18,16 +18,17 @@
     "zem": "^0.4.1"
   },
   "author": {
-    "name": "Zeplin",
-    "email": "support@zeplin.io",
-    "url": "http://zeplin.io"
+    "name": "v1s10n_4",
+    "email": "romain@getstation.com",
+    "url": "https://getstation.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeplin/react-native-extension.git"
+    "url": "https://github.com/getstation/zeplin-JSS-extension.git"
   },
   "zeplin": {
-    "displayName": "React Native",
+    "displayName": "JSS",
+    "platforms": ["web", "ios", "android", "osx"],
     "options": [
       {
         "name": "Color format",

@@ -54,9 +54,8 @@ function generateBorderStyleObject(border, layerType, densityDivisor, colorForma
     }
 
     return {
-        borderStyle: "solid",
-        borderWidth: round(border.thickness / densityDivisor, 1),
-        borderColor: getColorStringByFormat(border.fill.color, colorFormat)
+        /* eslint-disable-next-line quotes */
+        border: ['solid', round(border.thickness / densityDivisor, 1), getColorStringByFormat(border.fill.color, colorFormat)]
     };
 }
 

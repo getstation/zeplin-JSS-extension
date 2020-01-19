@@ -1,10 +1,10 @@
-# Zeplin React Native Extension
+# Zeplin JSS Extension
 
-Generates React Native JavaScript snippets from colors, text styles and layers. ⚛️📱
+Generates JSS JavaScript snippets from colors, text styles and layers.
 
 Sample colors output:
 ```js
-const colors = {
+colors: {
   red: "#ff0000",
   green: "#00ff00",
   blue: "#0000ff",
@@ -12,12 +12,12 @@ const colors = {
   black: "#000000",
   black50: "rgba(0, 0, 0, 0.5)",
   white: "#ffffff"
-};
+},
 ```
 
 Sample text style output:
 ```js
-const textStyles = StyleSheet.create({
+textStyles: {
   sampleTextStyle: {
     fontFamily: "SFProText",
     fontSize: 20,
@@ -34,23 +34,22 @@ const textStyles = StyleSheet.create({
     letterSpacing: 0,
     textAlign: "left",
     color: colors.red
-  }
-});
+  },
+},
 ```
 
 Sample layer output:
 ```js
-const layerWithShadow = {
-  width: 100,
-  height: 100,
-  shadowColor: colors.black50,
-  shadowOffset: {
-    width: 0,
-    height: 2
-  },
-  shadowRadius: 4,
-  shadowOpacity: 1
-};
+background: {
+  width: 197,
+  height: 34,
+  borderRadius: 40,
+  border: [
+    "solid",
+    1,
+    "#63a0e6"
+  ]
+},
 ```
 
 ## Options
@@ -75,6 +74,6 @@ Toggles always generating default values from layers or text styles, such as `fo
 
 ## Development
 
-React Native extension is developed using [zem](https://github.com/zeplin/zem), Zeplin Extension Manager. zem is a command line tool that lets you quickly create and test extensions.
+JSS extension is developed using [zem](https://github.com/zeplin/zem), Zeplin Extension Manager. zem is a command line tool that lets you quickly create and test extensions.
 
 To learn more about zem, [see documentation](https://github.com/zeplin/zem).

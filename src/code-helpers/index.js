@@ -30,7 +30,7 @@ function generateReactRule(styleObj, containerColorMap, mixin) {
         .replace(/"(.+)":/g, "$1:")
         .replace(/: "colors\.(.*)"/g, ": colors.$1");
 
-    return `const ${selectorName} = ${styleObjText};`;
+    return `${selectorName}: ${styleObjText},`;
 }
 
 function getStyleguideColorTexts(colorFormat, colors) {
@@ -46,7 +46,7 @@ function getStyleguideColorTexts(colorFormat, colors) {
 function getStyleguideColorsCode(options, colors) {
     var { colorFormat } = options;
     var styleguideColorTexts = getStyleguideColorTexts(colorFormat, colors);
-    return `const colors = {\n${styleguideColorTexts.join(",\n")}\n};`;
+    return `colors: {\n${styleguideColorTexts.join(",\n")}\n},`;
 }
 
 function getStyleguideTextStylesCode(options, containerAndType, textStyles) {
@@ -55,7 +55,7 @@ function getStyleguideTextStylesCode(options, containerAndType, textStyles) {
     var textStylesStr = JSON.stringify(textStylesObj, null, JSON_SPACING);
     var processedTextStyles = textStylesStr.replace(/"(.+)":/g, "$1:").replace(/: "colors\.(.*)"/g, ": colors.$1");
 
-    return `const textStyles = StyleSheet.create(${processedTextStyles});`;
+    return `textStyles: ${processedTextStyles},`;
 }
 
 function getLayerCode(containerAndType, layer, options) {

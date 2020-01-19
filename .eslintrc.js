@@ -11,6 +11,7 @@ module.exports = {
                 "ignore": [-1, 0, 1]
             }
         ],
-        "no-var": "off"
+        "no-var": "off",
+        "quotes": "off",
     }
-}
+};
