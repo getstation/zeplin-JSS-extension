@@ -26,9 +26,16 @@ function generateReactRule(styleObj, containerColorMap, mixin) {
     });
 
     var selectorName = generateName(selector);
-    var styleObjText = JSON.stringify(styleObj, null, JSON_SPACING)
-        .replace(/"(.+)":/g, "$1:")
-        .replace(/: "colors\.(.*)"/g, ": colors.$1");
+    var styleObjText = JSON
+        .stringify(styleObj, (k, v) => ((v instanceof Array) ? JSON.stringify(v) : v), JSON_SPACING)
+        .replace(/"(.+)":/g, '$1:')
+        .replace(/: "colors\.(.*)"/g, ": colors.$1")
+        .replace(/"/g, '\'')
+        .replace(/\\'/g, "'")
+        .replace("'[", '[')
+        .replace("]'", ']')
+        .replace("solid',", "solid', ")
+        .replace(",'#", ", '#");
 
     return `${selectorName}: ${styleObjText},`;
 }
@@ -39,7 +46,7 @@ function getStyleguideColorTexts(colorFormat, colors) {
             color,
             colorFormat
         );
-        return `  ${color.name}: "${colorStyleObject}"`;
+        return `  ${color.name}: '${colorStyleObject}'`;
     });
 }
 
@@ -52,10 +59,13 @@ function getStyleguideColorsCode(options, colors) {
 function getStyleguideTextStylesCode(options, containerAndType, textStyles) {
     var textStylesObj = generateStyleguideTextStylesObject(options, containerAndType, textStyles);
 
-    var textStylesStr = JSON.stringify(textStylesObj, null, JSON_SPACING);
-    var processedTextStyles = textStylesStr.replace(/"(.+)":/g, "$1:").replace(/: "colors\.(.*)"/g, ": colors.$1");
+    var textStylesStr = JSON
+        .stringify(textStylesObj, null, JSON_SPACING)
+        .replace(/"(.+)":/g, '$1:')
+        .replace(/: "colors\.(.*)"/g, ": colors.$1")
+        .replace(/"/g, '\'');
 
-    return `textStyles: ${processedTextStyles},`;
+    return `textStyles: ${textStylesStr},`;
 }
 
 function getLayerCode(containerAndType, layer, options) {

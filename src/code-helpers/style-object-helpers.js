@@ -191,7 +191,7 @@ function generateTextStyleStyleObject({
     if (textStyle.fontWeight === NUMERICAL_FONT_BOLD) {
         styleProperties.fontWeight = "bold";
     } else if (textStyle.fontWeight !== NUMERICAL_FONT_NORMAL) {
-        styleProperties.fontWeight = String(textStyle.fontWeight);
+        styleProperties.fontWeight = textStyle.fontWeight;
     } else if (defaultValues || overrideLayerStyle) {
         styleProperties.fontWeight = "normal";
     }

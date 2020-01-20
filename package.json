@@ -1,6 +1,6 @@
 {
   "name": "JSS",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "Generates JSS snippets from colors, text styles and layers.",
   "scripts": {
     "start": "zem start",
@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "@zeplin/eslint-config": "^1.2.2",
-    "@zeplin/extension-model": "^2.3.0",
-    "jest": "^22.1.4",
-    "zem": "^0.4.1"
+    "@zeplin/extension-model": "^2.4.0",
+    "jest": "^25.0.0",
+    "zem": "^0.4.4"
   },
   "author": {
     "name": "v1s10n_4",
@@ -28,7 +28,12 @@
   },
   "zeplin": {
     "displayName": "JSS",
-    "platforms": ["web", "ios", "android", "osx"],
+    "platforms": [
+      "web",
+      "ios",
+      "android",
+      "osx"
+    ],
     "options": [
       {
         "name": "Color format",

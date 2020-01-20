@@ -38,7 +38,7 @@
         ],
         "output": {
             "code":
-                "colors: {\n  softBlue: \"#5d79e7\",\n  darkSkyBlue: \"#3180ed\",\n  perrywinkle: \"#9087e6\",\n  white: \"#ffffff\"\n},",
+                "colors: {\n  softBlue: '#5d79e7',\n  darkSkyBlue: '#3180ed',\n  perrywinkle: '#9087e6',\n  white: '#ffffff'\n},",
             "language": "javascript"
         }
     },
@@ -102,7 +102,7 @@
         },
         "output": {
             "code":
-                "aadirCuenta: {\n  width: 359,\n  height: 22,\n  fontFamily: \"Montserrat\",\n  fontSize: 18,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: \"#090a12\"\n},",
+                "aadirCuenta: {\n  width: 359,\n  height: 22,\n  fontFamily: 'Montserrat',\n  fontSize: 18,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: '#090a12'\n},",
             "language": "javascript"
         }
     },
@@ -974,7 +974,7 @@
         },
         "output": {
             "code":
-                "layer: {\n  width: 27,\n  height: 48,\n  fontFamily: \"Montserrat\",\n  fontSize: 64,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: colors.white\n},",
+                "layer: {\n  width: 27,\n  height: 48,\n  fontFamily: 'Montserrat',\n  fontSize: 64,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: colors.white\n},",
             "language": "javascript"
         }
     },
@@ -1050,7 +1050,7 @@
         },
         "output": {
             "code":
-                "rectangle78: {\n  width: 65,\n  height: 53,\n  shadowColor: \"rgba(0, 0, 0, 0.25)\",\n  shadowOffset: {\n    width: 0,\n    height: 7\n  },\n  shadowRadius: 20,\n  shadowOpacity: 1\n},",
+                "rectangle78: {\n  width: 65,\n  height: 53,\n  shadowColor: 'rgba(0, 0, 0, 0.25)',\n  shadowOffset: {\n    width: 0,\n    height: 7\n  },\n  shadowRadius: 20,\n  shadowOpacity: 1\n},",
             "language": "javascript"
         }
     },
@@ -1085,7 +1085,7 @@
         },
         "output": {
             "code":
-                "rectangle35: {\n  width: 414,\n  height: 53,\n  backgroundColor: \"#303757\"\n},",
+                "rectangle35: {\n  width: 414,\n  height: 53,\n  backgroundColor: '#303757'\n},",
             "language": "javascript"
         }
     },
@@ -1157,7 +1157,7 @@
         },
         "output": {
             "code":
-                "time: {\n  width: 48,\n  height: 16,\n  fontFamily: \"SF UI Text\",\n  fontSize: 12,\n  fontWeight: \"600\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: colors.white\n},",
+                "time: {\n  width: 48,\n  height: 16,\n  fontFamily: 'SF UI Text',\n  fontSize: 12,\n  fontWeight: '600',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: colors.white\n},",
             "language": "javascript"
         }
     },
@@ -1194,7 +1194,7 @@
         },
         "output": {
             "code":
-                "carrier: {\n  width: 39,\n  height: 16,\n  fontFamily: \"SF UI Text\",\n  fontSize: 12,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: colors.white\n},",
+                "carrier: {\n  width: 39,\n  height: 16,\n  fontFamily: 'SF UI Text',\n  fontSize: 12,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: colors.white\n},",
             "language": "javascript"
         }
     },
@@ -1336,7 +1336,7 @@
         },
         "output": {
             "code":
-                "layer: {\n  width: 31,\n  height: 16,\n  fontFamily: \"SF UI Text\",\n  fontSize: 12,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: colors.white\n},",
+                "layer: {\n  width: 31,\n  height: 16,\n  fontFamily: 'SF UI Text',\n  fontSize: 12,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: colors.white\n},",
             "language": "javascript"
         }
     },
@@ -1371,7 +1371,7 @@
         },
         "output": {
             "code":
-                "statusBarLight: {\n  width: 413,\n  height: 22,\n  backgroundColor: \"#131624\"\n},",
+                "statusBarLight: {\n  width: 413,\n  height: 22,\n  backgroundColor: '#131624'\n},",
             "language": "javascript"
         }
     },
@@ -1408,7 +1408,7 @@
         },
         "output": {
             "code":
-                "carlos: {\n  width: 128,\n  height: 21,\n  fontFamily: \"Montserrat\",\n  fontSize: 20,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: colors.white\n},",
+                "carlos: {\n  width: 128,\n  height: 21,\n  fontFamily: 'Montserrat',\n  fontSize: 20,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: colors.white\n},",
             "language": "javascript"
         }
     },
@@ -1538,7 +1538,7 @@
         },
         "output": {
             "code":
-                "rectangle41: {\n  width: 414,\n  height: 1,\n  backgroundColor: \"#32395b\"\n},",
+                "rectangle41: {\n  width: 414,\n  height: 1,\n  backgroundColor: '#32395b'\n},",
             "language": "javascript"
         }
     },
@@ -1575,7 +1575,7 @@
         },
         "output": {
             "code":
-                "layer: {\n  width: 139,\n  height: 24,\n  fontFamily: \"Montserrat\",\n  fontSize: 16,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: \"#32395b\"\n},",
+                "layer: {\n  width: 139,\n  height: 24,\n  fontFamily: 'Montserrat',\n  fontSize: 16,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: '#32395b'\n},",
             "language": "javascript"
         }
     },
@@ -1612,7 +1612,7 @@
         },
         "output": {
             "code":
-                "layer: {\n  width: 139,\n  height: 24,\n  fontFamily: \"Montserrat\",\n  fontSize: 16,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: \"#7c8bd0\"\n},",
+                "layer: {\n  width: 139,\n  height: 24,\n  fontFamily: 'Montserrat',\n  fontSize: 16,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: '#7c8bd0'\n},",
             "language": "javascript"
         }
     },
@@ -1649,7 +1649,7 @@
         },
         "output": {
             "code":
-                "layer: {\n  width: 138,\n  height: 24,\n  fontFamily: \"Montserrat\",\n  fontSize: 16,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: \"#32395b\"\n},",
+                "layer: {\n  width: 138,\n  height: 24,\n  fontFamily: 'Montserrat',\n  fontSize: 16,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: '#32395b'\n},",
             "language": "javascript"
         }
     },
@@ -1684,7 +1684,7 @@
         },
         "output": {
             "code":
-                "rectangle40: {\n  width: 138,\n  height: 5,\n  backgroundColor: \"#7c8bd0\"\n},",
+                "rectangle40: {\n  width: 138,\n  height: 5,\n  backgroundColor: '#7c8bd0'\n},",
             "language": "javascript"
         }
     },
@@ -1859,7 +1859,7 @@
         },
         "output": {
             "code":
-                "rectangle37: {\n  width: 15,\n  height: 200,\n  borderRadius: 5,\n  backgroundColor: \"#131624\"\n},",
+                "rectangle37: {\n  width: 15,\n  height: 200,\n  borderRadius: 5,\n  backgroundColor: '#131624'\n},",
             "language": "javascript"
         }
     },
@@ -1987,7 +1987,7 @@
         },
         "output": {
             "code":
-                "paypal: {\n  width: 63,\n  height: 25,\n  fontFamily: \"Montserrat\",\n  fontSize: 16,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: colors.white\n},",
+                "paypal: {\n  width: 63,\n  height: 25,\n  fontFamily: 'Montserrat',\n  fontSize: 16,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: colors.white\n},",
             "language": "javascript"
         }
     },
@@ -2082,7 +2082,7 @@
         },
         "output": {
             "code":
-                "rectangle36: {\n  width: 121,\n  height: 27,\n  borderRadius: 100,\n  backgroundColor: \"#131624\"\n},",
+                "rectangle36: {\n  width: 121,\n  height: 27,\n  borderRadius: 100,\n  backgroundColor: '#131624'\n},",
             "language": "javascript"
         }
     },
@@ -2119,7 +2119,7 @@
         },
         "output": {
             "code":
-                "layer: {\n  width: 355,\n  height: 173,\n  fontFamily: \"Montserrat\",\n  fontSize: 144,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: \"#080a12\"\n},",
+                "layer: {\n  width: 355,\n  height: 173,\n  fontFamily: 'Montserrat',\n  fontSize: 144,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: '#080a12'\n},",
             "language": "javascript"
         }
     },
@@ -2156,7 +2156,7 @@
         },
         "output": {
             "code":
-                "layer: {\n  width: 355,\n  height: 173,\n  fontFamily: \"Montserrat\",\n  fontSize: 144,\n  fontWeight: \"normal\",\n  fontStyle: \"normal\",\n  letterSpacing: 0,\n  color: \"rgba(8, 10, 18, 0.2)\"\n},",
+                "layer: {\n  width: 355,\n  height: 173,\n  fontFamily: 'Montserrat',\n  fontSize: 144,\n  fontWeight: 'normal',\n  fontStyle: 'normal',\n  letterSpacing: 0,\n  color: 'rgba(8, 10, 18, 0.2)'\n},",
             "language": "javascript"
         }
     },
@@ -2202,7 +2202,7 @@
         },
         "output": {
             "code":
-                "rectangle34: {\n  width: 339,\n  height: 199,\n  borderRadius: 8,\n  backgroundColor: \"#131624\",\n  border: [\n    \"solid\",\n    3,\n    \"#090a12\"\n  ]\n},",
+                "rectangle34: {\n  width: 339,\n  height: 199,\n  borderRadius: 8,\n  backgroundColor: '#131624',\n  border: ['solid', 3, '#090a12']\n},",
             "language": "javascript"
         }
     },
@@ -2252,7 +2252,7 @@
         },
         "output": {
             "code":
-                "rectangle34: {\n  width: 359,\n  height: 222,\n  borderRadius: 8,\n  backgroundColor: \"#131624\",\n  shadowColor: \"rgba(0, 0, 0, 0.25)\",\n  shadowOffset: {\n    width: 0,\n    height: 7\n  },\n  shadowRadius: 20,\n  shadowOpacity: 1\n},",
+                "rectangle34: {\n  width: 359,\n  height: 222,\n  borderRadius: 8,\n  backgroundColor: '#131624',\n  shadowColor: 'rgba(0, 0, 0, 0.25)',\n  shadowOffset: {\n    width: 0,\n    height: 7\n  },\n  shadowRadius: 20,\n  shadowOpacity: 1\n},",
             "language": "javascript"
         }
     },
@@ -2297,7 +2297,7 @@
         },
         "output": {
             "code":
-                "rectangle33: {\n  width: 414,\n  height: 736,\n  backgroundColor: \"#232840\"\n},",
+                "rectangle33: {\n  width: 414,\n  height: 736,\n  backgroundColor: '#232840'\n},",
             "language": "javascript"
         }
     },
@@ -2347,7 +2347,7 @@
         ],
         "output": {
             "code":
-                "textStyles: {\n  textStyle2: {\n    fontFamily: \"Montserrat\",\n    fontSize: 144,\n    fontWeight: \"normal\",\n    fontStyle: \"normal\",\n    letterSpacing: 0,\n    color: \"#080a12\"\n  },\n  textStyle: {\n    fontFamily: \"Montserrat\",\n    fontSize: 20,\n    fontWeight: \"normal\",\n    fontStyle: \"normal\",\n    letterSpacing: 0,\n    color: colors.white\n  },\n  textStyle3: {\n    fontFamily: \"Montserrat\",\n    fontSize: 16,\n    fontWeight: \"normal\",\n    fontStyle: \"normal\",\n    letterSpacing: 0,\n    color: \"#7c8bd0\"\n  }\n},",
+                "textStyles: {\n  textStyle2: {\n    fontFamily: 'Montserrat',\n    fontSize: 144,\n    fontWeight: 'normal',\n    fontStyle: 'normal',\n    letterSpacing: 0,\n    color: '#080a12'\n  },\n  textStyle: {\n    fontFamily: 'Montserrat',\n    fontSize: 20,\n    fontWeight: 'normal',\n    fontStyle: 'normal',\n    letterSpacing: 0,\n    color: colors.white\n  },\n  textStyle3: {\n    fontFamily: 'Montserrat',\n    fontSize: 16,\n    fontWeight: 'normal',\n    fontStyle: 'normal',\n    letterSpacing: 0,\n    color: '#7c8bd0'\n  }\n},",
             "language": "javascript"
         }
     }

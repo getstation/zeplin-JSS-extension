@@ -5,13 +5,13 @@ Generates JSS JavaScript snippets from colors, text styles and layers.
 Sample colors output:
 ```js
 colors: {
-  red: "#ff0000",
-  green: "#00ff00",
-  blue: "#0000ff",
-  yellow: "#ffff00",
-  black: "#000000",
-  black50: "rgba(0, 0, 0, 0.5)",
-  white: "#ffffff"
+  red: '#ff0000',
+  green: '#00ff00',
+  blue: '#0000ff',
+  yellow: '#ffff00',
+  black: '#000000',
+  black50: 'rgba(0, 0, 0, 0.5)',
+  white: '#ffffff'
 },
 ```
 
@@ -19,20 +19,20 @@ Sample text style output:
 ```js
 textStyles: {
   sampleTextStyle: {
-    fontFamily: "SFProText",
+    fontFamily: 'SFProText',
     fontSize: 20,
-    fontWeight: "normal",
-    fontStyle: "normal",
+    fontWeight: 'normal',
+    fontStyle: 'normal',
     letterSpacing: 0,
-    textAlign: "left"
+    textAlign: 'left'
   },
   sampleTextStyleWithColor: {
-    fontFamily: "SFProText",
+    fontFamily: 'SFProText',
     fontSize: 20,
-    fontWeight: "normal",
-    fontStyle: "normal",
+    fontWeight: 'normal',
+    fontStyle: 'normal',
     letterSpacing: 0,
-    textAlign: "left",
+    textAlign: 'left',
     color: colors.red
   },
 },
@@ -44,11 +44,7 @@ background: {
   width: 197,
   height: 34,
   borderRadius: 40,
-  border: [
-    "solid",
-    1,
-    "#63a0e6"
-  ]
+  border: ['solid', 1, '#63a0e6']
 },
 ```
 
@@ -58,10 +54,10 @@ background: {
 
 Supports HEX, RGB or HSL. Sample colors output as HSL:
 ```js
-const colors = {
-  red: "hsl(0, 100%, 50%)",
-  black50: "hsla(0, 0%, 0%, 0.5)"
-};
+colors: {
+  red: 'hsl(0, 100%, 50%)',
+  black50: 'hsla(0, 0%, 0%, 0.5)'
+},
 ```
 
 #### Dimensions
